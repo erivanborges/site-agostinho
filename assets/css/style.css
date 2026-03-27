@@ -31,3 +31,31 @@ body {
     z-index: 1000;
     border-bottom: 4px solid var(--amarelo);
 }
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li a {
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: color 1s;
+}
+
+.nav-links li a:hover {
+    color: var(--amarelo);
+}
+
+.hero {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--branco);
+    margin-top: 60px;
+}
