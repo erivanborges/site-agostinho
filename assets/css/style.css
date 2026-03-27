@@ -48,6 +48,27 @@ body {
     color: var(--amarelo);
 }
 
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    padding-right: 5px;
+}
+
+.logo span {
+    font-size: 18px;
+}
+
+.logo span i {
+    font-size: 15px;
+    margin-left: 5px;
+}
+
 .hero {
     height: 80vh;
     background-size: cover;
