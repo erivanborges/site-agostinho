@@ -69,7 +69,15 @@ body {
     margin-left: 5px;
 }
 
+#descricao_logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
 .hero {
+    background: linear-gradient(rgba(0,40,85, 0.7)), url("../img/banner.png");
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -79,4 +87,56 @@ body {
     text-align: center;
     color: var(--branco);
     margin-top: 60px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content a {
+    margin-top: 1rem;
+}
+
+.btn-primary {
+    background-color: var(--amarelo);
+    color: var(--azul-marinho);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    display: inline-block; 
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+/* Seções em Geral */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+h2 {
+    text-align: center;
+    color: var(--azul-marinho);
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.features {
+    background: var(--branco);
+    display: flex;
+    justify-content:space-around;
+    padding: 4rem 5%;
+}
+
+.features-card {
+    text-align: center;
+    padding: 2rem;
+    flex: 1;
 }
